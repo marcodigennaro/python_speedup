@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "speedup"
+name = "python_speedup"
 version = "0.1.0"
 description = ""
 authors = ["Marco Di Gennaro <mdg@atomistic-modelling.com>"]
@@ -12,6 +12,10 @@ jupyterlab-execute-time = "^3.1.2"
 pytest = "^8.2.1"
 pre-commit = "^3.7.1"
 coverage = "^7.5.2"
+numpy = "^1.26.4"
+mypy = "^1.10.0"
+setuptools = "^70.0.0"
+tree = "^0.2.4"
 
 
 [build-system]
