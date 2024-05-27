@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "speedup"
+version = "0.1.0"
+description = ""
+authors = ["Marco Di Gennaro <mdg@atomistic-modelling.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyterlab = "^4.2.1"
+jupyterlab-execute-time = "^3.1.2"
+pytest = "^8.2.1"
+pre-commit = "^3.7.1"
+coverage = "^7.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
